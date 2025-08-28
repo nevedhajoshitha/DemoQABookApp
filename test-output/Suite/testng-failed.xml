@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="Test with edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="Tests.BookApplication">
+        <methods>
+          <include name="QuitBrowser"/>
+          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="LogoutTest"/>
+          <include name="LaunchBrowser"/>
+          <include name="SetUpPages"/>
+        </methods>
+      </class> <!-- Tests.BookApplication -->
+    </classes>
+  </test> <!-- Test with edge(failed) -->
+  <test parallel="tests" name="Test with chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Tests.BookApplication">
+        <methods>
+          <include name="QuitBrowser"/>
+          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="LogoutTest"/>
+          <include name="LaunchBrowser"/>
+          <include name="SetUpPages"/>
+        </methods>
+      </class> <!-- Tests.BookApplication -->
+    </classes>
+  </test> <!-- Test with chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

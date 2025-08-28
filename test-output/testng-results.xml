@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-27T16:53:38Z" name="Suite" finished-at="2025-08-27T16:54:02Z" duration-ms="23384">
+    <groups>
+      <group name="regression">
+        <method signature="BookApplication.LoginTest(java.lang.String, java.lang.String)[pri:0, instance:Tests.BookApplication@61710c6]" name="LoginTest" class="Tests.BookApplication"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2025-08-27T16:53:38Z" name="Test with chrome" finished-at="2025-08-27T16:54:02Z" duration-ms="23384">
+      <class name="Tests.BookApplication">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:Tests.BookApplication@61710c6]" started-at="2025-08-27T22:23:38Z" name="LaunchBrowser" finished-at="2025-08-27T22:23:56Z" duration-ms="17696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="SetUpPages()[pri:0, instance:Tests.BookApplication@61710c6]" started-at="2025-08-27T22:23:56Z" name="SetUpPages" finished-at="2025-08-27T22:23:56Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpPages -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:Tests.BookApplication@61710c6]" started-at="2025-08-27T22:23:56Z" name="LoginTest" data-provider="dp" finished-at="2025-08-27T22:23:56Z" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUserJava]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="LogoutTest()[pri:0, instance:Tests.BookApplication@61710c6]" started-at="2025-08-27T22:23:56Z" name="LogoutTest" finished-at="2025-08-27T22:23:58Z" duration-ms="2025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:Tests.BookApplication@61710c6]" started-at="2025-08-27T22:23:58Z" name="LoginTest" data-provider="dp" finished-at="2025-08-27T22:23:59Z" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestingUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="LogoutTest()[pri:0, instance:Tests.BookApplication@61710c6]" started-at="2025-08-27T22:23:59Z" name="LogoutTest" finished-at="2025-08-27T22:24:01Z" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:Tests.BookApplication@61710c6]" started-at="2025-08-27T22:24:01Z" name="QuitBrowser" finished-at="2025-08-27T22:24:02Z" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- Tests.BookApplication -->
+    </test> <!-- Test with chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
